@@ -7,9 +7,9 @@
 		enablePlayerDetector = true
 		#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range. -1 for unlimited
 		#Range: > -1
-		playerDetMaxRange = 250
+		playerDetMaxRange = -1
 		#Activates the "getPlayerPos" function of the Player Detector
-		enablePlayerPosFunction = false
+		enablePlayerPosFunction = true
 		#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
 		morePlayerInformation = true
 		#If true, the player detector can observe players which aren't in the same dimension as the detector itself. `playerDetMaxRange` needs to be infinite(-1) for it to work.
@@ -172,6 +172,6 @@
 		scanEntitiesMaxCostRadius = 16
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanEntitiesExtraBlockCost = 0.17
-		#Range: > 1000
+		#Range: > 0
 		chatMessageCooldown = 1000
 

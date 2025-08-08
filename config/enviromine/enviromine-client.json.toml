@@ -1,0 +1,5 @@
+
+["General Client"]
+	#Display stats on the Overlay instead of the ActionBar? (True)
+	OverlayStats = false
+
