@@ -1,0 +1,13 @@
+name = "Twilight Lib"
+filename = "twilight_lib-1.20.1-1.1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b16f154e13793002780e137215340e72aef8a477"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6523911
+project-id = 1019545

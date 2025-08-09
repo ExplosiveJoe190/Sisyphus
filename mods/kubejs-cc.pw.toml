@@ -1,0 +1,13 @@
+name = "KubeJS + CC: Tweaked"
+filename = "kjscc-1.0.1-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14f730e4a92fe3ad58566ac2ae535100264be226"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5306930
+project-id = 1000850

@@ -1,0 +1,13 @@
+name = "Toxicity [Architectury]"
+filename = "Toxicity-forge-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13992b94a27b343afabde42a87adf5a51b9f0228"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5728551
+project-id = 1103939

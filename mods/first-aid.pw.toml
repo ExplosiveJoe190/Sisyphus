@@ -1,0 +1,13 @@
+name = "First Aid"
+filename = "firstaid-1.20.1-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "afebe3773bd8b3f902ef54c3c98864bfb0d1e00e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5531834
+project-id = 276837
