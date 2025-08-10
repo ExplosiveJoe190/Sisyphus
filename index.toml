@@ -1258,6 +1258,11 @@ hash = "8c04f9fd776591ebe8050f7504f23ef5b36f16507d95107b1c53ff408b01b3f8"
 metafile = true
 
 [[files]]
+file = "mods/diet.pw.toml"
+hash = "90791d91751fc9a54e339f07f23f71ecb159383c946234a1113cbfab8a34162e"
+metafile = true
+
+[[files]]
 file = "mods/drive-by-wire.pw.toml"
 hash = "66480dff746d968c27d6597f8861459fa8598a5f3880bf30bc317c1837a19859"
 metafile = true
