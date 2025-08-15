@@ -19,8 +19,8 @@
 	# • *units: The units of the temperature ("f", "c", or "mc"). Defaults to Minecraft units (mc))
 	# ⌄ 
 	"Dimension Temperature Offsets" = [
-	    ["minecraft:the_nether", 0.7],
-	    ["minecraft:the_end", -0.1]
+	    ["minecraft:the_nether", 32, "f"],
+	    ["minecraft:the_end", -5, "f"]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the temperature of a dimension, overriding biome and elevation temperature
@@ -77,7 +77,8 @@
 	    ["minecraft:badlands", 84, 120, "F"],
 	    ["minecraft:wooded_badlands", 80, 108, "F"],
 	    ["minecraft:eroded_badlands", 88, 120, "F"],
-	    ["minecraft:deep_dark", 63, 63, "F"]
+	    ["minecraft:deep_dark", 63, 63, "F"],
+	    ["minecraft:dripstone_caves", "disable"]
 	]
 
 [Blocks]
@@ -98,15 +99,15 @@
 	"Block Temperatures" = [
 	    ["cold_sweat:boiler", 0.27, 7, "mc", 0.88, "lit=true", "", 4],
 	    ["cold_sweat:icebox", -0.27, 7, "mc", 0.88, "frosted=true", "", 0],
+	    ["minecraft:lava", 0.3, 7, "mc", 6, "", "", 21.5, true],
 	    ["minecraft:fire", 0.476, 7, "mc", 0.9, "", "", 8],
-	    ["#minecraft:campfires", 0.476, 7, "mc", 0.9, "lit=true", " ", 8],
+	    ["#minecraft:campfires,!minecraft:soul_campfire", 0.476, 7, "mc", 0.9, "lit=true", " ", 8],
 	    ["minecraft:magma_block", 0.25, 3, "mc", 1.0],
 	    ["minecraft:lava_cauldron", 0.5, 7, "mc", 1.5],
-	    ["minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7],
-	    ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.7],
+	    ["minecraft:ice", -0.15, 4, "mc", 0.3, "", "", 0.05],
+	    ["minecraft:packed_ice", -0.25, 4, "mc", 1.0, "", "", -0.3],
 	    ["minecraft:blue_ice", -0.35, 4, "mc", 1.4, "", "", -0.7],
-	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7],
-	    ["minecraft:lava", 0.25, 7, "mc", 4, "", "", 21.5, true]
+	    ["#minecraft:ice", -0.15, 4, "mc", 0.6, "", "", -0.7]
 	]
 	#─────────────────────────────────────────────────────────────────────────
 	# The maximum range of blocks' area of effect
@@ -123,6 +124,26 @@
 	# When set to true, modifies ice blocks to be harvestable with a pickaxe
 	# ⌄ 
 	"Custom Ice Drops" = true
+
+[Structures]
+	#─────────────────────────────────────────────────────────────────────────
+	# Overrides the world temperature when the player is within this structure
+	# ├── Format: [["structure_id", temperature, *units], ["structure_id", temperature, *units]... etc]
+	# └── [* = optional]
+	# • structure_id: The ID of the structure (i.e. "minecraft:stronghold")
+	# • temperature: The temperature of the structure, in Minecraft units
+	# • *units: The units of the temperature ("f" for Fahrenheit, "c" for Celsius, "mc" for Minecraft units)
+	# ⌄ 
+	"Structure Temperatures" = []
+	#─────────────────────────────────────────────────────────────────────────
+	# Offsets the world temperature when the player is within this structure
+	# ├── Format: [["structure_id", offset, *units], ["structure_id", offset, *units]... etc]
+	# └── [* = optional]
+	# • structure_id: The ID of the structure (i.e. "minecraft:stronghold")
+	# • offset: The temperature offset of the structure, in Minecraft units
+	# • *units: The units of the temperature ("f" for Fahrenheit, "c" for Celsius, "mc" for Minecraft units)
+	# ⌄ 
+	"Structure Temperature Offsets" = []
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────
@@ -277,23 +298,18 @@
 		#Range: > 0
 		"Icebox Fuel Consumption Interval" = 40
 
-[Structures]
-	#─────────────────────────────────────────────────────────────────────────
-	# Overrides the world temperature when the player is within this structure
-	# ├── Format: [["structure_id", temperature, *units], ["structure_id", temperature, *units]... etc]
-	# └── [* = optional]
-	# • structure_id: The ID of the structure (i.e. "minecraft:stronghold")
-	# • temperature: The temperature of the structure, in Minecraft units
-	# • *units: The units of the temperature ("f" for Fahrenheit, "c" for Celsius, "mc" for Minecraft units)
-	# ⌄ 
-	"Structure Temperatures" = []
-	#─────────────────────────────────────────────────────────────────────────
-	# Offsets the world temperature when the player is within this structure
-	# ├── Format: [["structure_id", offset, *units], ["structure_id", offset, *units]... etc]
-	# └── [* = optional]
-	# • structure_id: The ID of the structure (i.e. "minecraft:stronghold")
-	# • offset: The temperature offset of the structure, in Minecraft units
-	# • *units: The units of the temperature ("f" for Fahrenheit, "c" for Celsius, "mc" for Minecraft units)
-	# ⌄ 
-	"Structure Temperature Offsets" = []
+[Compatibility]
+
+	[Compatibility.Seasons]
+		#─────────────────────────────────────────────────────────────────────────
+		# Defines the temperature changes caused by each season
+		# ├── Format: [seasonStart, seasonMid, seasonEnd, *units]
+		# └── [* = optional]
+		# • seasonStart/Mid/End: The temperature offset at the start, middle, and end of the season
+		# • *units: The unit of temperature (C, F, or MC)
+		# ⌄ 
+		Summer = [0.4, 0.6, 0.4]
+		Autumn = [0.2, 0, -0.2]
+		Winter = [-0.4, -0.6, -0.4]
+		Spring = [-0.2, 0, 0.2]
 

@@ -1,0 +1,13 @@
+name = "Loot Journal (Forge)"
+filename = "loot_journal-forge-1.20.1-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70f8a3ef605803f68c35beed7805e83c3bf7dbf4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5813449
+project-id = 700723

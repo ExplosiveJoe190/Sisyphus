@@ -1,0 +1,13 @@
+name = "project-1278756"
+filename = "netherportalfixtr-13.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2179040063d0e11083e54a9b1957de9f909d0d6f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6608064
+project-id = 1278756
