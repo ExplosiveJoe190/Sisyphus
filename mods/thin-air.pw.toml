@@ -1,0 +1,13 @@
+name = "Thin Air"
+filename = "ThinAir-v8.1.7-1.20.1-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc6d65691bd26dc1f99eeec0646b330a7f7c9315"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6777933
+project-id = 878379
