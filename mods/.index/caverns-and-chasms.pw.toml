@@ -1,0 +1,16 @@
+filename = 'caverns_and_chasms-1.20.1-2.0.0.jar'
+name = 'Caverns & Chasms'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd6adb09c4b18e23990d200741b2723da6dd3a4ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6040957
+project-id = 438005

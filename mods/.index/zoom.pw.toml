@@ -1,0 +1,30 @@
+filename = 'zoom-1.5.jar'
+name = 'Zoom'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.18',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '69e29e820f3670d17af66e2212b095f926ebf75aca52defd3fcfc10d769b779746a8a56de5df0e6af259b516d2fb00cf91abe9c7e3f2f6e3ba047ed0eb02062c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vPdyJ7mo/versions/wUgQ4spj/zoom-1.5.jar'
+
+[update.modrinth]
+mod-id = 'vPdyJ7mo'
+version = 'wUgQ4spj'

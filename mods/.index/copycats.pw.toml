@@ -1,0 +1,16 @@
+filename = 'copycats-2.2.2+mc.1.20.1-forge.jar'
+name = 'Create: Copycats+'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4b54e36f9d8e6c3f0e17b6e4db80eef93794099eae019b2ec99148cab537c06f9756f7ce07d6727619dd825247b448101f9f4e64828f32bbc915608d7aa1863d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UT2M39wf/versions/oeTB57Pr/copycats-2.2.2%2Bmc.1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'UT2M39wf'
+version = 'oeTB57Pr'

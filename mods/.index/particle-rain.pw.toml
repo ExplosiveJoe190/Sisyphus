@@ -1,0 +1,16 @@
+filename = 'particlerain-4.0.0-alpha.3+1.20.1-forge.jar'
+name = 'Particle Rain'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '35dff190a89268bb1fd4fecb1be8b6ba53ff21ca81b2b088b3dd3cb8da3a35f3e5cd8ebb6e06f647a3fbc690e20d6e7d7a880bc0f1c9f064a5cbfcf7325af087'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nrikgvxm/versions/5GKT9zMT/particlerain-4.0.0-alpha.3%2B1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'nrikgvxm'
+version = '5GKT9zMT'

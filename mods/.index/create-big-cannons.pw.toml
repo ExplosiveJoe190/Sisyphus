@@ -1,0 +1,16 @@
+filename = 'createbigcannons-5.8.2-mc.1.20.1-forge.jar'
+name = 'Create Big Cannons'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '212e51ce3f5d49508b9e14c9535a8d8488e4895b82b5ef860733d4a95f45b09c33349f570e64bdf5a7b4ac66e4e22cdf4534196bffbdd80d1a8c498076b14f29'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GWp4jCJj/versions/IRWVKjMW/createbigcannons-5.8.2-mc.1.20.1-forge.jar'
+
+[update.modrinth]
+mod-id = 'GWp4jCJj'
+version = 'IRWVKjMW'

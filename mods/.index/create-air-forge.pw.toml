@@ -1,0 +1,16 @@
+filename = 'createair-1.0-1.20.1.jar'
+name = 'Create Air (A ThinAir compat)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9b0dba87681a090fced03398e810cf85019646bc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5047180
+project-id = 880593

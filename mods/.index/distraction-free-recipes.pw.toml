@@ -1,0 +1,16 @@
+filename = 'distraction_free_recipes-forge-1.2.1-1.20.1.jar'
+name = 'Distraction Free Recipes (EMI / REI / JEI)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5d5a10b33b597a0eb2d4204f3b5db3aff17fbec9d4480845446f168ce01a4be856890e96c82c8d762bd9d58b5d7b7ffae7db1fd5890f44ec95aca4bd279606c7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gbJLUhZP/versions/tmdAnJOP/distraction_free_recipes-forge-1.2.1-1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'gbJLUhZP'
+version = 'tmdAnJOP'

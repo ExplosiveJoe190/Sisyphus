@@ -1,9 +1,0 @@
-{
-	enableCustomRain: true,
-	rainColor: -10185656,
-	// Damage to the player from the acid rain.
-	flatDamage: 1,
-	// Damage to the armor pieces from the acid rain.
-	flatArmorDamage: 1,
-	damageIntervalInTicks: 20
-}

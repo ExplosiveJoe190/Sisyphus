@@ -1,0 +1,16 @@
+filename = 'create_hypertube-0.2.5-CREATE-0.5.1.jar'
+name = 'Create: Hypertubes'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '7565852fe5234379123d74fb1e737e9db6f8dda6dacd28f374cfabe6bf722e8da8e7911e14b6b413c319573dda282f9175dd180ad0deb5d7e69a8ff44549276b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ATDdrG1y/versions/F0Nwn2M6/create_hypertube-0.2.5-CREATE-0.5.1.jar'
+
+[update.modrinth]
+mod-id = 'ATDdrG1y'
+version = 'F0Nwn2M6'

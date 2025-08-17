@@ -1,0 +1,16 @@
+filename = 'seasonhud-forge-1.20.1-1.13.8.jar'
+name = 'SeasonHUD'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '948c85602ae0291e6de2923b7a742353ffc8c2c239d662b14111204d393a7f833f6e186b7dcf38a321bf1aa24332be79e1b94c8ed0ccb6fb76fb74514ddf3ff2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VNjUn3NA/versions/NH9y0yvW/seasonhud-forge-1.20.1-1.13.8.jar'
+
+[update.modrinth]
+mod-id = 'VNjUn3NA'
+version = 'NH9y0yvW'
