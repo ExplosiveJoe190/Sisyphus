@@ -1417,6 +1417,10 @@ file = "mods/Connector-1.0.0-beta.46+1.20.1.jar"
 hash = "79d58fd7ced77df600eefc927adbbd8e217c2d6b0778c17aa8b27756703145ac"
 
 [[files]]
+file = "mods/Create-DnDesire-1.20.1-0.1b.Release-Early-Dev .jar"
+hash = "c2e52676be3b3d1c04bb96cc0e6b966fb48342216fcd3658c79c43ae5537933d"
+
+[[files]]
 file = "mods/EMIProfessions-forge-1.20.1-1.0.3.jar"
 hash = "81174b7e965d3f30ff716f2804e3d22b7dae4c482f60fe3374f53dd539dfdb1d"
 
@@ -1820,6 +1824,10 @@ metafile = true
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "232f73206d09fb0c8cac662fb82bbb53367795818ef05f70c290e391a5e4fa03"
 metafile = true
+
+[[files]]
+file = "mods/notenoughanimations-forge-1.10.1-mc1.20.1.jar"
+hash = "4ffcf27f4fab97d1644350fba9d527a4e8d73e4cdf94683918b2f510876a88ca"
 
 [[files]]
 file = "mods/oculus.pw.toml"
