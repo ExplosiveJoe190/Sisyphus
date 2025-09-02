@@ -1,0 +1,16 @@
+filename = 'SpartanWeaponry-1.20.1-forge-3.2.1-all.jar'
+name = 'Spartan Weaponry'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '187977cf09972df5773c92b8af5fd342a9d726cb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6842571
+project-id = 278141

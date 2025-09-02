@@ -13,7 +13,7 @@ maxRodsInDirection = 32
 conductivityMultiplier = 1.0
 #Maximum depth of network pathfinding
 #Range: > 1
-maxPathfindingDepth = 24
+maxPathfindingDepth = 32
 #Multiplier of energising speed
 #Range: 0.0 ~ 1.7976931348623157E308
 energiserSpeedMultiplier = 1.0

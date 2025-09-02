@@ -1,0 +1,16 @@
+filename = 'MorePeripherals_1.20.1-1.13.0.jar'
+name = 'More Peripherals'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2135a9f3a2bf2ee17e3975183ceb74eb72f81fd5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5268197
+project-id = 570908

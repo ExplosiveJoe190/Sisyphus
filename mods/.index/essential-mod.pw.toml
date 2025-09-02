@@ -1,0 +1,16 @@
+filename = 'Essential_1-3-9_forge_1-20-1.jar'
+name = 'Essential Mod'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ceba4fb3785bbbdaf7bf377314563ae94e183c8a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6828668
+project-id = 546670

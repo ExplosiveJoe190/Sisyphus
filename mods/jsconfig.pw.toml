@@ -1,0 +1,13 @@
+name = "JasonConfig"
+filename = "jsconf-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ebe5e511a5d319c1b4733a9d87f22258584f2c0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6515768
+project-id = 1186372

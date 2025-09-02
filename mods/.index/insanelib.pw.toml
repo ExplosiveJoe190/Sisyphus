@@ -1,0 +1,16 @@
+filename = 'insanelib-1.21.20.jar'
+name = 'InsaneLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7a44458feea68829a934f09c1628a1b96665ec6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6927148
+project-id = 465109

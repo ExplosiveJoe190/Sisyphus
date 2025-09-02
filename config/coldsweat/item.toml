@@ -53,24 +53,6 @@
 	    ["minecraft:packed_ice", -1000]
 	]
 
-["Hearth Extras"]
-	#─────────────────────────────────────────────────────────────────────────//v
-	# Potions containing any of these effects will not be allowed in the hearth
-	# └── Format: ["effect_id", "effect_id", ...etc]
-	# ⌄ 
-	"Blacklisted Hearth Potions" = [
-	    "minecraft:instant_damage",
-	    "minecraft:poison",
-	    "minecraft:wither",
-	    "minecraft:weakness",
-	    "minecraft:mining_fatigue",
-	    "minecraft:slowness"
-	]
-	#─────────────────────────────────────────────────────────────────────────
-	# If true, potions can be used in the hearth to give all players in range the potion effect
-	# ⌄ 
-	"Allow Potions in Hearth" = true
-
 ["Soulspring Lamp"]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines items that the Soulspring Lamp can use as fuel
@@ -104,12 +86,12 @@
 	# • *fillSlots: If true, the item will fill 1 slot per 2 insulation points. Otherwise, the item will fill 1 slot.
 	# ⌄ 
 	"Insulation Ingredients" = [
-	    ["minecraft:leather", 1, 1],
-	    ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive"],
-	    ["cold_sweat:hoglin_hide", 0, 2],
-	    ["cold_sweat:goat_fur", 2, 0],
-	    ["#minecraft:wool", 1.5, 0],
-	    ["minecraft:rabbit_hide", 0, 1.5]
+	    ["minecraft:leather", 1, 1, "static", "", true],
+	    ["cold_sweat:chameleon_molt", 2, 0.0085, "adaptive", "", true],
+	    ["cold_sweat:hoglin_hide", 0, 2, "static", "", true],
+	    ["cold_sweat:goat_fur", 2, 0, "static", "", true],
+	    ["#minecraft:wool", 1.5, 0, "static", "", true],
+	    ["minecraft:rabbit_hide", 0, 1.5, "static", "", true]
 	]
 	#─────────────────────────────────────────────────────────────────────────//v
 	# Defines the items that provide insulation when worn
@@ -154,14 +136,6 @@
 	#      • max-slots: The maximum number of insulation slots an armor piece can have
 	# ⌄ 
 	"Insulation Slots" = ["static", 4, 6, 5, 4]
-	#─────────────────────────────────────────────────────────────────────────//v
-	# Allows for overriding the number of insulation slots for specific items
-	# └── Format: [["item_id", slotCount, *"{nbt}"], ["item_id", slotCount, *"{nbt}"], ...etc]
-	# • item_id: The item's ID (i.e. "minecraft:iron_helmet").
-	# • slot_count: The number of insulation slots the item should have.
-	# • *nbt: If set, the item will only have the specified number of insulation slots if it has the specified NBT tag.
-	# ⌄ 
-	"Insulation Slot Overrides" = []
 	#─────────────────────────────────────────────────────────────────────────
 	# Defines the effectiveness of insulating items in protecting against temperature
 	# ⌄ 
@@ -172,6 +146,14 @@
 	# └── Format: ["item_id", "item_id", ...etc]
 	# ⌄ 
 	"Insulation Blacklist" = []
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Allows for overriding the number of insulation slots for specific items
+	# └── Format: [["item_id", slotCount, *"{nbt}"], ["item_id", slotCount, *"{nbt}"], ...etc]
+	# • item_id: The item's ID (i.e. "minecraft:iron_helmet").
+	# • slot_count: The number of insulation slots the item should have.
+	# • *nbt: If set, the item will only have the specified number of insulation slots if it has the specified NBT tag.
+	# ⌄ 
+	"Insulation Slot Overrides" = []
 
 [Consumables]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -192,16 +174,6 @@
 	#Range: > 0
 	"Waterskin Strength" = 50
 	#─────────────────────────────────────────────────────────────────────────
-	# A multiplier for how effective a waterskin's over-time effect is, when held in the player's hotbar
-	# ⌄ 
-	#Range: 0.0 ~ Infinity
-	"Waterskin Hotbar Strength" = 1.0
-	#─────────────────────────────────────────────────────────────────────────
-	# A multiplier for how quickly a waterskin will return to its neutral temperature when being used in the hotbar
-	# ⌄ 
-	#Range: 0.0 ~ Infinity
-	"Waterskin Neutralize Speed" = 1.0
-	#─────────────────────────────────────────────────────────────────────────
 	# Determines the strength of the Soulspring Lamp's effect before it is overwhelmed
 	# A value of 1 means it will never be overwhelmed
 	# ⌄ 
@@ -216,6 +188,16 @@
 	"Drying Items" = [
 	    ["minecraft:sponge", "minecraft:wet_sponge"]
 	]
+	#─────────────────────────────────────────────────────────────────────────
+	# A multiplier for how effective a waterskin's over-time effect is, when held in the player's hotbar
+	# ⌄ 
+	#Range: 0.0 ~ Infinity
+	"Waterskin Hotbar Strength" = 1.0
+	#─────────────────────────────────────────────────────────────────────────
+	# A multiplier for how quickly a waterskin will return to its neutral temperature when being used in the hotbar
+	# ⌄ 
+	#Range: 0.0 ~ Infinity
+	"Waterskin Neutralize Speed" = 1.0
 
 [Misc]
 	#─────────────────────────────────────────────────────────────────────────//v
@@ -230,6 +212,24 @@
 	# • *max_effect: The maximum temperature effect the item can apply to the entity.
 	# ⌄ 
 	"Carried Item Temperatures" = []
+
+["Hearth Extras"]
+	#─────────────────────────────────────────────────────────────────────────//v
+	# Potions containing any of these effects will not be allowed in the hearth
+	# └── Format: ["effect_id", "effect_id", ...etc]
+	# ⌄ 
+	"Blacklisted Hearth Potions" = [
+	    "minecraft:instant_damage",
+	    "minecraft:poison",
+	    "minecraft:wither",
+	    "minecraft:weakness",
+	    "minecraft:mining_fatigue",
+	    "minecraft:slowness"
+	]
+	#─────────────────────────────────────────────────────────────────────────
+	# If true, potions can be used in the hearth to give all players in range the potion effect
+	# ⌄ 
+	"Allow Potions in Hearth" = true
 
 ["Item Functions"]
 	#─────────────────────────────────────────────────────────────────────────

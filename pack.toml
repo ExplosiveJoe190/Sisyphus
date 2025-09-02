@@ -1,13 +1,13 @@
-name = "Sisyphus"
+name = "Sisyphus Master v 2"
 author = "Explosivejoe190"
-version = "0.0.1"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "850152e99c22b00560e984e557887634e3dfc5dbf61609c9c7524c8816409582"
+hash = "e28c4ec7fc69c4224df24bd5803c5be7a1a108eb1033289f5cd35d08bc3bf869"
 
 [versions]
-forge = "47.4.1"
+forge = "47.4.0"
 minecraft = "1.20.1"

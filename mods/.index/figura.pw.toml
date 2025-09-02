@@ -1,0 +1,16 @@
+filename = 'figura-0.1.5+1.20.1-forge-mc.jar'
+name = 'Figura'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7388a40f4c86c1af73c452b2eaf92893205c3dec'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6204468
+project-id = 901503

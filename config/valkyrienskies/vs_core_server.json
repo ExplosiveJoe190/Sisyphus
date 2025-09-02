@@ -2,7 +2,7 @@
   "pt" : {
     "synchronizePhysics" : false,
     "physicsTicksPerGameTick" : 3,
-    "terrainBakingThreads" : 4,
+    "terrainBakingThreads" : 12,
     "terrainBakingThreadPriority" : 5,
     "terrainDeletionThreads" : 1,
     "terrainDeletionThreadPriority" : 4

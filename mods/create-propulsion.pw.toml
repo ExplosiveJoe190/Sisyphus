@@ -1,0 +1,13 @@
+name = "Create: Propulsion"
+filename = "createpropulsion-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbed59f8a5809097099d89db0a276724b71194d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6877148
+project-id = 1253819

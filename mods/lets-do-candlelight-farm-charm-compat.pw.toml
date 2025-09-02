@@ -1,0 +1,13 @@
+name = "[Let's Do] Candlelight - Farm&Charm Compat"
+filename = "letsdo-candlelight-forge-2.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "67b5560125db588cb1d87c042cc9dce9833861d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6850362
+project-id = 1038117

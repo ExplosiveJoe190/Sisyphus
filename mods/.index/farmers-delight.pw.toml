@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'e9e8f234a08570806da9f35ce943d0bfe36a00b3c1a0da45acb52fe166e6bd9762d6d85b2de071e2da515e90cd7618d28e69be08ce42e002a01833dd8e3b307a'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/R2OftAxM/versions/YWFFrKk6/FarmersDelight-1.20.1-1.2.8.jar'
+hash = 'a3402ee46cf12583416b8fbe84a97dd20ba1401a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'R2OftAxM'
-version = 'YWFFrKk6'
+[update.curseforge]
+file-id = 6597298
+project-id = 398521

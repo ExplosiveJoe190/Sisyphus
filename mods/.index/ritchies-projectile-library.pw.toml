@@ -1,0 +1,16 @@
+filename = 'ritchiesprojectilelib-2.1.0+mc.1.20.1-forge.jar'
+name = "Ritchie's Projectile Library"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3f8af3e9e7331be574bcbb1dca479c83b9cd45bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6612420
+project-id = 1279407

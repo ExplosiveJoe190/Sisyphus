@@ -1,0 +1,13 @@
+name = "TACZ: Durability (Timeless and Classics Guns)"
+filename = "gundurability-1.8.2-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7657a53aadb392da2e45fdaf43ade901190e041f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6633587
+project-id = 1065328

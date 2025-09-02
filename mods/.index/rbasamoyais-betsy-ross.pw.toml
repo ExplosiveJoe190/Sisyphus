@@ -1,0 +1,16 @@
+filename = 'betsyross-2.0.1+mc.1.20.1-forge.jar'
+name = "rbasamoyai's Betsy Ross"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5fccdeaeb05aeefd6761f3b12e329f811989d971'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5626465
+project-id = 785325

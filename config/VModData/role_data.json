@@ -3,9 +3,9 @@
     "default" : [ "Allow SensorMode", "Allow VEntityChanger", "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow SchemMode", "Allow GravChangerMode", "Allow MassChangerMode", "Allow SyncRotation", "Allow ShipRemoverMode", "Allow Command Usage", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow SliderMode", "Allow ThrusterMode", "Allow DisableCollisionsMode", "Allow PhysRopeMode" ]
   },
   "playersRoles" : {
-    "5bad7361-aeed-4fb6-8750-1e073b638c85" : {
-      "uuid" : "5bad7361-aeed-4fb6-8750-1e073b638c85",
-      "nickname" : "BigCrazyClaw",
+    "053a7e57-715a-4ddf-b17c-c2fdb4e5f23e" : {
+      "uuid" : "053a7e57-715a-4ddf-b17c-c2fdb4e5f23e",
+      "nickname" : "SamRat343",
       "role" : "default"
     }
   },

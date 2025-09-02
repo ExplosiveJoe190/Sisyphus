@@ -1,0 +1,16 @@
+filename = 'playingcards-2.0.1.jar'
+name = 'Playing Cards & Chips'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8d590a5b33cf9ffa72f0a27e6cc9f863da716067'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6044204
+project-id = 1162591
